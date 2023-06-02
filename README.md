@@ -1,5 +1,5 @@
 # EX-5 IMPLEMENTATION OF REVERSE ADDRESS RESOLUTION PROTOCOL(RARP)
-## DATE:03-04-2023
+## DATE : 03-04-2023
 
 ## AIM:
 To write a python program for implementing Reverse Address Resolution Protocol(RARP).
