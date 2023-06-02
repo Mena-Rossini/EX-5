@@ -1,10 +1,10 @@
 # EX-5 IMPLEMENTATION OF REVERSE ADDRESS RESOLUTION PROTOCOL(RARP)
 ## DATE : 03-04-2023
 
-## AIM:
+## AIM :
 To write a python program for implementing Reverse Address Resolution Protocol(RARP).
 
-## ALGORITHM:
+## ALGORITHM :
 ### Client :
 1. Start the program
 2. Using datagram sockets UDP function is established.
@@ -17,8 +17,8 @@ To write a python program for implementing Reverse Address Resolution Protocol(R
 3. Read the MAC address which is send by the client.
 4. Map the IP address with its MAC address and return the IP address to client
 
-## PROGRAM:
-### CLIENT:
+## PROGRAM :
+### CLIENT :
 ```
 import socket
 s = socket.socket()
@@ -33,7 +33,7 @@ while True:
    except KeyError:
        c.send("Not found".encode())
  ```
-### SERVER:
+### SERVER :
 ```
 import socket
 s=socket.socket()
@@ -54,5 +54,5 @@ while True:
 ![241281861-36f09348-402a-4093-a2f1-66dc55d104fe](https://github.com/Mena-Rossini/EX-5/assets/102855266/321d6946-ebc6-4aad-b614-cdda3180feff)
 
 
-## RESULT:
+## RESULT :
 Thus, the python program for simulating RARP protocols using TCP was successfully executed.
